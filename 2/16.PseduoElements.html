@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Pseduo Elements</title>
+    <style>
+
+        .para1 {
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+            
+        }
+        /*.para1::first-line {
+            color: red;
+        }
+        .para1::first-letter {
+            color: blue;
+            font-size: 50px;
+
+        } */
+         .para1::after {
+            content: url("https://img.freepik.com/free-vector/instagram-logo_1199-122.jpg?semt=ais_hybrid")
+
+         }
+         .para1::before {
+            content:"Paragraf öncesi" ;
+         }
+    
+    </style>
+</head>
+<body>
+    
+    <p class = "para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt repudiandae consectetur iure totam, ullam esse similique! Architecto quam delectus reiciendis, consectetur animi ad illum, iste autem assumenda in recusandae quidem. Ipsum vitae laudantium aliquid at ducimus ullam voluptate? Vero, beatae praesentium. Nobis magnam blanditiis ex itaque, explicabo neque autem magni dolore consectetur provident adipisci eveniet nostrum omnis eaque aut soluta eos corrupti non? Molestias eos debitis voluptatum pariatur commodi deserunt laudantium mollitia magnam dolores eius iste nemo quisquam repudiandae nostrum inventore, assumenda cumque itaque dignissimos nesciunt quo repellendus. Nesciunt facilis accusamus error deserunt et accusantium sint perferendis nulla saepe rerum?</p>
+</body>
+</html>
